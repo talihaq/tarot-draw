@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = 'en' dir='ltr'>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' href='style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <title>Tarot Deck</title>
+    </head>
+    <body>
+        <main>
+            <div class='flex-container'>
+                <div class='heading flex-item'>
+                    <h1>Tarot Draw</h1>
+                </div>
+                <div class='flex-item'>
+                    <!-- Form for name -->
+                    <form action='reading.html' method='GET'>
+                        <label for'user-name'>What should I call you?</label>
+                        <br>
+                        <input id='username' name='username' type='text' required>
+                        <p class='tip'>Think about your question before drawing your card.</p>
+                        <input class='button' type='submit' value='Draw Card'>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

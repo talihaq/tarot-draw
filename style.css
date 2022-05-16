@@ -1,0 +1,101 @@
+/* overall */
+body {
+    margin: 0;
+    background-color: #ca668099;
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* flex */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-container {
+    width: 450px;
+    height: 450px;
+    padding: 40px 50px;
+    background-color: #ca668099;
+    border: 2px solid #A56FA680;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.flex-item,
+section {
+    flex: 100% 1 1;
+}
+
+/* typography */ 
+h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+p,
+label {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+#card {
+    color: #E6C03A;
+    font-size: 24px;
+}
+
+/* form */
+#username {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E6C03A;
+}
+
+/* buttons */
+.button {
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #E6C03A; 
+    background-color: #E6C03A00;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #E6C03A;
+    color: #000000;
+}
+
+.button:active {
+    background-color: #E6C03A;
+    border-color: #A56FA6;
+    color: #000000;
+}
+
+
+/* links */
+a {
+    color: #E6C03A;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:active {
+    color: #A56FA6;
+}
+
+/* images */
+img {
+    max-width: 150px;
+    opacity: 0.8;
+}
